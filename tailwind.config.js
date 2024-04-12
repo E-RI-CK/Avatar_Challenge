@@ -2,10 +2,12 @@
 export default {
   purge:{
     content:[
-      "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
       "!./src/components/Navigation/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+      "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     ]
   },
+  darkMode: false,
   // content: [
   //   "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
   //   "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
