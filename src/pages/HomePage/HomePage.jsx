@@ -23,8 +23,8 @@ export const HomePage = () => {
         throw new Error(res.statusText);
       }
 
-      setData(res.data)
-      setLoading(false)
+      setData(res.data);
+      setLoading(false);
     } catch (err) {
       if (err.name === 'AbortError') {
         console.log('Fetch was aborted');
