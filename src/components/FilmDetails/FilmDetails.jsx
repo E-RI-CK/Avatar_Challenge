@@ -8,9 +8,9 @@ function FilmDetails({ details, characters, id }) {
     return (
         // Detailed card with film info and links to characters that appears in the film
 
-        <div className='card p-4 character-details-card animate__animated animate__fadeIn'>
+        <div className='card p-4 character-details-card animate__animated animate__fadeIn w-full'>
             <h3 className='card-header text-dark'>{details.title}</h3>
-            <div className='card-body flex justify-between px-8 w-full md:w-[80vw]'>
+            <div className='card-body flex justify-between px-8 w-full md:min-w-[80vw]'>
                 <div >
                     <h5 className='card-title text-dark'>Attributes</h5>
                 </div >

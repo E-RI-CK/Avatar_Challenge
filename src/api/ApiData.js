@@ -1,7 +1,6 @@
-import axios from 'axios'
+import axios from 'axios';
 
-axios.defaults.baseURL = 'https://swapi.dev/api'
-const number = 12;
+axios.defaults.baseURL = 'https://swapi.dev/api';
 
 //Get Movies
 const getFilms = async (query = null, page) => {
@@ -11,7 +10,7 @@ const getFilms = async (query = null, page) => {
 
 //Get Characters
 const getCharacters = async (query = null, page) => {
-	const res = await axios.get(`people/?search=${query}&page=${page}&take=${number}`);
+	const res = await axios.get(`people/?search=${query}&page=${page}`);
 	return res.data;
 }
 
