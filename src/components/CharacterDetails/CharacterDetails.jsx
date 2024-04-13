@@ -1,6 +1,6 @@
 import { useNavigate, Link, useParams } from 'react-router-dom';
 import { getIdFromUrl } from '../../helpers/getIdFromUrl';
-
+import { FilmName } from '../FilmName/FilmName';
 
 function CharacterDetails({ details, films }) {
     const params = useParams();
@@ -57,10 +57,9 @@ function CharacterDetails({ details, films }) {
             <ul className='list-group list-group-flush'>
                 {films &&
                     films.map(film => (
-                        <Link key={getIdFromUrl(film)} to={`/films/${getIdFromUrl(film)}`}>
-                            <li className='list-group-item'>Film {getIdFromUrl(film)}</li>
-                        </Link>
-                    ))}
+                        <FilmName key={getIdFromUrl(film)} url={`/films/${getIdFromUrl(film)}`} getIdFromUrl={getIdFromUrl(film)} filmUrl={film} />
+                    ))
+                }
             </ul>
 
             {/* back button  */}

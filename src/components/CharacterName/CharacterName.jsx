@@ -30,7 +30,7 @@ export const CharacterName = ({ character }) => {
 
     useEffect(() => {
         getName();
-    }, [getName])
+    }, [getName]);
 
     //console.log(name);
     return (
