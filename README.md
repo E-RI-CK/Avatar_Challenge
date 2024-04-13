@@ -12,3 +12,7 @@ Includes SWAPI, where the access to all the characters is in the next endpoint: 
 2. Install Dependencies  ```npm install```.
 3. Run in dev ```npm run dev```.
 
+
+
+https://github.com/E-RI-CK/Avatar_Challenge/assets/74332121/5fa8e6b5-9d42-49e2-b969-a3172e0138ba
+
