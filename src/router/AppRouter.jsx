@@ -6,6 +6,7 @@ import { HomePage } from '../pages/HomePage/HomePage';
 import { Navigation } from '../components/Navigation/Navigation';
 import FilmsPage from '../pages/FilmsPage/FilmsPage';
 import FilmDetailsPage from '../pages/FilmDetailsPage/FilmDetailsPage';
+import CharactersPage from '../pages/CharactersPage/CharactersPage';
 
 
 
@@ -18,6 +19,7 @@ export const AppRouter = () => {
                 <Route path='/' element={<HomePage />} />
                 <Route path='/films' element={<FilmsPage />} />
                 <Route path='/films/:id' element={<FilmDetailsPage />} />
+                <Route path='/characters/' element={<CharactersPage />} />
             </Routes>
         </div>
     )
