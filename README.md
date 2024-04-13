@@ -6,6 +6,15 @@ Includes SWAPI, where the access to all the EPISODES (movies) is in the next end
 
 Includes SWAPI, where the access to all the characters is in the next endpoint: https://swapi.co/api/people/
 
+## Dev Tools
+
+1. Tailwind
+2. Bootstrap
+3. Axios
+5. React
+4. React Router
+5. Vite
+
 ## Instalation
 
 1. Clone repository.
