@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import { HomePage } from '../pages/HomePage/HomePage';
 import { Navigation } from '../components/Navigation/Navigation';
 import FilmsPage from '../pages/FilmsPage/FilmsPage';
+import FilmDetailsPage from '../pages/FilmDetailsPage/FilmDetailsPage';
 
 
 
@@ -16,6 +17,7 @@ export const AppRouter = () => {
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='/films' element={<FilmsPage />} />
+                <Route path='/films/:id' element={<FilmDetailsPage />} />
             </Routes>
         </div>
     )
