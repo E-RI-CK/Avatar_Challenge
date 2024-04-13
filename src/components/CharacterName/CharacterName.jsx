@@ -41,7 +41,7 @@ export const CharacterName = ({ character }) => {
                     key={getIdFromUrl(character)}
                     to={`/characters/${getIdFromUrl(character)}`}
                 >
-                    <li className='list-group-item underline'>
+                    <li className='list-group-item underline font-bold'>
                         {name}
                     </li>
                 </Link>

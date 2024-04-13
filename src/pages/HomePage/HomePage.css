@@ -18,7 +18,7 @@
 	width: 1000px;
 	height: 1000px;
 	transform: perspective(250px) rotateX(20deg);
-	animation: scrollCrawl 90s linear;
+	animation: scrollCrawl 50s linear ;
 }
 
 .preheader {

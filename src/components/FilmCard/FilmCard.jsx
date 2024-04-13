@@ -15,7 +15,7 @@ function FilmCard({ films }) {
 					<div className='card-header film-card-header d-flex align-items-center'>
 						<h2>{film.title}</h2>
 					</div>
-					<div className='flex p-1'>
+					<div className='flex p-1 justify-center'>
 						<img src={`/assets/chapters/episode_${film.episode_id}.jpg`} alt={`Episodio ${film.episode_id}`} />
 					</div>
 					<div className='card-body'>
