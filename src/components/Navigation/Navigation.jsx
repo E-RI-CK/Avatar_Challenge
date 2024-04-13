@@ -13,7 +13,9 @@ export const Navigation = () => {
         <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
             <div className='container-fluid'>
                 <div className='logo'>
-                    <img src="/assets/star-wars.svg" alt="star wars logo" height={"75px"} width={"75px"}/>
+                    <NavLink to='/'>
+                        <img src="/assets/star-wars.svg" alt="star wars logo" height={"75px"} width={"75px"} />
+                    </NavLink>
                 </div>
                 <NavLink to='/' className='navbar-brand site-name'>
                     Home

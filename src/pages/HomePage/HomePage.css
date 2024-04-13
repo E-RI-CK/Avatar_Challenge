@@ -1,0 +1,48 @@
+.home-main {
+	background: url("/assets/stars.png");
+	background-size: cover;
+	overflow: hidden;
+	
+}
+
+.home-main p{
+	color: #ffb13a;
+}
+.crawl {
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 80px;
+	width: 1000px;
+	height: 1000px;
+	transform: perspective(250px) rotateX(20deg);
+	animation: scrollCrawl 90s linear;
+}
+
+.preheader {
+	text-align: center;
+	margin: 40px 0;
+	color: #ffb13a;
+}
+
+.header {
+	text-align: center;
+	margin: 0 0 80px 0;
+	color: #ffb13a;
+}
+
+@keyframes scrollCrawl {
+	0% {
+		transform: perspective(250px) rotateX(20deg) translateY(680px);
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		transform: perspective(250px) rotateX(20deg) translateY(-4000px);
+		opacity: 0;
+	}
+}
