@@ -11,7 +11,7 @@ export const Navigation = () => {
 
     return (
         <nav className='navbar navbar-expand-lg navbar-dark bg-primary'>
-            <div className='container-fluid'>
+            <div className='container-fluid px-10'>
                 <div className='logo'>
                     <NavLink to='/'>
                         <img src="/assets/star-wars.svg" alt="star wars logo" height={"75px"} width={"75px"} />

@@ -42,9 +42,7 @@ export default function CharactersPage() {
 
     useEffect(() => {
         fetchCharacters(query, page)
-    }, [query, page])
-
-    console.log(data);
+    }, [query, page]);
 
     return (
         <main className='min-h-[calc(100vh-123px)] bg-[#193851]'>

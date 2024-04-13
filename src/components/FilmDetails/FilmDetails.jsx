@@ -15,7 +15,7 @@ function FilmDetails({ details, characters, id }) {
                     <h5 className='card-title text-dark'>Attributes</h5>
                 </div >
                 <div className='flex justify-start p-1 '>
-                    <img src={`/assets/chapters/episode_${id}.jpg`} alt={`Episodio ${id}`} />
+                    <img src={`/assets/chapters/episode_${details.episode_id}.jpg`} alt={`Episodio ${details.episode_id}`} />
                 </div>
             </div>
             <div className='card-body '>
